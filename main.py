@@ -18,7 +18,7 @@ from appwrite.role import Role
 from PIL import Image, ImageDraw, ImageFont
 
 # Configuration
-W, H = 1080, 1920
+W, H = 540, 970
 BG_COLOR = (245, 242, 235)
 TEXT_COLOR = (150, 150, 150)
 HIGHLIGHT_COLOR = (255, 230, 120)
@@ -78,7 +78,7 @@ def render_frame(keyword, highlight_box=True):
 
     # Try to load Arial, fallback to default
     try:
-        font = ImageFont.truetype(os.path.join(os.getcwd(), "fonts", "Arial.ttf"), 48)
+        font = ImageFont.truetype(os.path.join(os.getcwd(), "fonts", "Arial.ttf"), 52)
     except:
         font = ImageFont.load_default()
     

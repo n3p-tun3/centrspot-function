@@ -27,8 +27,8 @@ COLUMN_X_MIN = -200
 COLUMN_X_MAX = 200
 
 LINE_H = 52
-LINES_ABOVE = 15
-LINES_BELOW = 15
+LINES_ABOVE = 20
+LINES_BELOW = 20
 
 CORPUS = (
     "The city council convened early that morning as reports continued "

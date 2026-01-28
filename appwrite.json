@@ -1,0 +1,12 @@
+{
+  "$id": "keyword-video-generator",
+  "name": "Keyword Video Frame Generator",
+  "runtime": "python-3.11",
+  "execute": ["any"],
+  "entrypoint": "main.py",
+  "ignore": ["*.md", ".git"],
+  "timeout": 30,
+  "variables": {
+    "BUCKET_ID": "frames"
+  }
+}
